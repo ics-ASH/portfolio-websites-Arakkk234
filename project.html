@@ -1,55 +1,69 @@
+
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 30px;
-}
-
-button {
-  background-color: rgb(81, 156, 34);
-  color: white;
-  padding: 10px 20px;
-  margin: 5px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-
-  
-  }
-
-button:hover {
-  background-color: rgb(46, 77, 30);
-}
-
-
-  
- 
-
-
-}
-</style>
+  <style>
+    body {
+      background-color: rgb(147, 245, 66); 
+    }
+    .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin: 30px;
+    }
+    .boxed-title {
+      background-color: white;
+      padding: 10px 20px;
+      border: 2px solid rgb(60, 126, 83);
+      border-radius: 5px;
+      color: rgb(60, 126, 83);
+      display: inline-block;
+    }
+    button {
+      background-color: rgb(81, 156, 34);
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: rgb(60, 126, 83);
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  </style>
 </head>
-<body style="background-color:rgb(147, 245, 66);">
+<body>
+  <a href="index.html"><button>Back to homepage</button></a>
+  <div class="center">
+    <div class="boxed-title">
+      <h1>Projects</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="boxed-title">
+      <p>Here are some of my projects. Feel free to explore!</p>
+    </div>
+    <iframe src="https://drive.google.com/file/d/16ahU2W84lVpjiwAW1YrIECEx5yLo7629/preview" width="400" height="400" allow="autoplay"></iframe>
+    
+  
 
- <a href="index.html"><button>Back to homepage</button></a>
-
-<div class="center">
-  <h1 style="color:white;">Projects</h1>
-</div>
-
-<div class="center">
-  <iframe src="https://drive.google.com/file/d/16ahU2W84lVpjiwAW1YrIECEx5yLo7629/preview" width="300" height="300" allow="autoplay"></iframe>
-</div>
-
-<div class="center">
-  <iframe src="https://drive.google.com/file/d/17GVrZ3jCmoBkr_pOBvrB5cwt_HaftLAU/preview" width="300" height="300" allow="autoplay"></iframe>
-</div>
-
+ 
+    <iframe src="https://drive.google.com/file/d/17GVrZ3jCmoBkr_pOBvrB5cwt_HaftLAU/preview" width="400" height="400"></iframe>
+  </div>
+  <div class="center">
+   
+ 
+    
+  </div>
 </body>
 </html>
